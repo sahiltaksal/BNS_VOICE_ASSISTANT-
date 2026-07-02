@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #F7F2E9;
+  color: #1B2A4A;
+}
+
+/* Dashed tear-line used on ticket-style cards */
+.tear-line {
+  background-image: repeating-linear-gradient(
+    to right,
+    #C9BFA9 0,
+    #C9BFA9 8px,
+    transparent 8px,
+    transparent 16px
+  );
+  height: 2px;
+}
+
+/* Perforated notch cut-outs on either side of a ticket card */
+.ticket-notch::before,
+.ticket-notch::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: #F7F2E9;
+  border-radius: 9999px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.ticket-notch::before {
+  left: -10px;
+}
+.ticket-notch::after {
+  right: -10px;
+}
+
+/* Visible focus rings for keyboard users */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #E8734A;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* thin custom scrollbar for chat window */
+.chat-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+.chat-scroll::-webkit-scrollbar-thumb {
+  background-color: #D8CDB4;
+  border-radius: 999px;
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "id": "goa",
+    "destination": "Goa",
+    "title": "Goa Beach Holiday",
+    "duration": "3 Nights / 4 Days",
+    "pricePerPerson": 8999,
+    "includes": ["Hotel", "Breakfast", "Sightseeing", "Airport Pickup"],
+    "bestFor": ["Friends", "Couples", "Family"],
+    "highlights": "Beautiful beaches, water sports, nightlife, Portuguese architecture",
+    "bestMonths": "October to March"
+  },
+  {
+    "id": "kashmir",
+    "destination": "Kashmir",
+    "title": "Kashmir Valley Paradise",
+    "duration": "5 Nights / 6 Days",
+    "pricePerPerson": 18999,
+    "includes": ["Hotel", "All Meals", "Sightseeing", "Houseboat Stay", "Shikara Ride"],
+    "bestFor": ["Family", "Honeymoon", "Couples"],
+    "highlights": "Dal Lake, Gulmarg, Pahalgam, snow-capped mountains, Mughal gardens",
+    "bestMonths": "April to October"
+  },
+  {
+    "id": "dubai",
+    "destination": "Dubai",
+    "title": "Dubai Luxury Experience",
+    "duration": "4 Nights / 5 Days",
+    "pricePerPerson": 42999,
+    "includes": ["4-Star Hotel", "Breakfast", "Desert Safari", "Burj Khalifa Entry", "City Tour", "Visa Assistance"],
+    "bestFor": ["Couples", "Family", "Friends"],
+    "highlights": "Burj Khalifa, desert safari, Dubai Mall, Palm Jumeirah, gold souk",
+    "bestMonths": "November to March"
+  },
+  {
+    "id": "manali",
+    "destination": "Manali",
+    "title": "Manali Adventure Escape",
+    "duration": "4 Nights / 5 Days",
+    "pricePerPerson": 12499,
+    "includes": ["Hotel", "Breakfast & Dinner", "Sightseeing", "Rohtang Pass Visit", "Adventure Activities"],
+    "bestFor": ["Friends", "Couples", "Adventure Seekers"],
+    "highlights": "Rohtang Pass, Solang Valley, Hadimba Temple, river rafting, snow activities",
+    "bestMonths": "October to June"
+  },
+  {
+    "id": "kerala",
+    "destination": "Kerala",
+    "title": "Kerala Backwaters & Beyond",
+    "duration": "5 Nights / 6 Days",
+    "pricePerPerson": 15999,
+    "includes": ["Hotel + Houseboat", "All Meals", "Sightseeing", "Kathakali Show", "Spice Garden Visit"],
+    "bestFor": ["Family", "Couples", "Honeymoon"],
+    "highlights": "Alleppey backwaters, Munnar tea estates, Kochi fort, elephant sanctuary, Ayurveda",
+    "bestMonths": "September to March"
+  }
+]
